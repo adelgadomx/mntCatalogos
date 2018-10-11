@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CapaPresentacion", "CapaPresentacion\", "{1565338A-BA55-48BC-BF34-BC41FA2AD791}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{b4551444-b42e-45bb-8d79-1cf5acc2c5e6}|CapaLogicaNegocio.dll;{b725a3e2-6998-46b5-86a0-9ec6dd206298}|CapaEntidades.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_52680"
 		Debug.AspNetCompiler.PhysicalPath = "CapaPresentacion\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52680\"
@@ -25,13 +26,34 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CapaPresentacion", "CapaPre
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaAccesoDatos", "CapaAccesoDatos\CapaAccesoDatos.csproj", "{4AC18CA9-F295-49CE-9D03-9ED7740A4173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaEntidades", "CapaEntidades\CapaEntidades.csproj", "{B725A3E2-6998-46B5-86A0-9EC6DD206298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaLogicaNegocio", "CapaLogicaNegocio\CapaLogicaNegocio.csproj", "{B4551444-B42E-45BB-8D79-1CF5ACC2C5E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1565338A-BA55-48BC-BF34-BC41FA2AD791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1565338A-BA55-48BC-BF34-BC41FA2AD791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1565338A-BA55-48BC-BF34-BC41FA2AD791}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1565338A-BA55-48BC-BF34-BC41FA2AD791}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4AC18CA9-F295-49CE-9D03-9ED7740A4173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC18CA9-F295-49CE-9D03-9ED7740A4173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC18CA9-F295-49CE-9D03-9ED7740A4173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC18CA9-F295-49CE-9D03-9ED7740A4173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B725A3E2-6998-46B5-86A0-9EC6DD206298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B725A3E2-6998-46B5-86A0-9EC6DD206298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B725A3E2-6998-46B5-86A0-9EC6DD206298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B725A3E2-6998-46B5-86A0-9EC6DD206298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4551444-B42E-45BB-8D79-1CF5ACC2C5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4551444-B42E-45BB-8D79-1CF5ACC2C5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4551444-B42E-45BB-8D79-1CF5ACC2C5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4551444-B42E-45BB-8D79-1CF5ACC2C5E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
